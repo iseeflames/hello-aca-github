@@ -1,5 +1,3 @@
-let clicked = false;
-
 function toggleButtonOnClick(){
     let hiddenElement = document.getElementById("demo");
 
@@ -10,6 +8,6 @@ function toggleButtonOnClick(){
      } else {
 
         hiddenElement.style.display = "none";
-        
+
     }
 }
